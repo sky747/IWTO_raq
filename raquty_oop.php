@@ -26,12 +26,12 @@
     <main>
     <div id="main__contents" class="main">
       <div class="main__inner">
-        <div class="main__inner__before">
-          <div class="court">
+        <ul class="main__inner__before">
+          <li class="court">
             <div class="court-title">
               <h3>1</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
                 <div>
                     <div class="dragged-place">選手を追加</div>
                 </div>
@@ -44,12 +44,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>2</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
                 <div>
                     <div class="dragged-place">選手を追加</div>
                 </div>
@@ -62,12 +91,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>3</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
                 <div>
                     <div class="dragged-place">選手を追加</div>
                 </div>
@@ -80,12 +138,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>4</h3>
             </div>
-            <div class="court-player">    
+            <div class="court-player court-player1">    
                 <div>
                     <div class="dragged-place">選手を追加</div>
                 </div>
@@ -98,12 +185,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court-right">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court-right">
             <div class="court-title">
               <h3>5</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
                 <div>
                   <div class="dragged-place">選手を追加</div>
                 </div>
@@ -116,14 +232,43 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-        </div>
-        <div class="main__inner__after">
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="main__inner__after">
+          <li class="court">
             <div class="court-title">
               <h3>6</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
               <div>
                 <div class="dragged-place">選手を追加</div>
               </div>
@@ -136,12 +281,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>7</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
                 <div>
                     <div class="dragged-place">選手を追加</div>
                 </div>
@@ -154,12 +328,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>8</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
               <div>
                   <div class="dragged-place">選手を追加</div>
               </div>
@@ -172,12 +375,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court">
             <div class="court-title">
               <h3>9</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
               <div>
                   <div class="dragged-place">選手を追加</div>
               </div>
@@ -190,12 +422,41 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-          <div class="court-right">
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+
+          <li class="court-right">
             <div class="court-title">
               <h3>10</h3>
             </div>
-            <div class="court-player">
+            <div class="court-player court-player1">
               <div>
                   <div class="dragged-place">選手を追加</div>
               </div>
@@ -208,8 +469,36 @@
               <button class="back-button">結果入力</button>
               <button class="back-button">試合消去</button>
             </div>
-          </div>
-        </div>
+
+            <div class="court-player court-player2">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back2">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+
+            <div class="court-player court-player3">
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+                <p>VS</p>
+                <div>
+                    <div class="dragged-place">選手を追加</div>
+                </div>
+            </div>
+            <div class="back3">
+              <button class="back-button">結果入力</button>
+              <button class="back-button">試合消去</button>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
     </main>
