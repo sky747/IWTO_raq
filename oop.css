@@ -143,6 +143,7 @@ li {
 
 ul {
   padding-left: 0;
+  transform-style: preserve-3d;
 }
 
 .court {
@@ -167,6 +168,18 @@ ul {
   width: 20%;
   transform-style: preserve-3d;
   perspective: 66rem;
+}
+
+.court-player1,
+.court-player2,
+.court-player3 {
+  display: block;
+}
+
+.back,
+.back2,
+.back3 {
+  display: none;
 }
 
 .court .court-player,
@@ -242,23 +255,19 @@ ul {
 .court .back,
 .court .back2 {
   padding-bottom: 0.5rem;
-  transform: rotateY(-180deg);
 }
 
 .court .back3 {
   padding-bottom: 1.73rem;
-  transform: rotateY(-180deg);
 }
 
 .court-right .back,
 .court-right .back2 {
   padding-bottom: 0.5rem;
-  transform: rotateY(-180deg);
 }
 
 .court-right .back3 {
   padding-bottom: 1.73rem;
-  transform: rotateY(-180deg);
 }
 
 .back .back-button,
@@ -278,31 +287,14 @@ ul {
   opacity: 0.6;
 }
 
-/* ホバー時の表面 */
-.court:hover .court-player1, 
-.court:hover .court-player2,
-.court:hover .court-player3 {
-  transform: rotateY(180deg);
+.rotating {
+  transition: transform 0.3s ease; 
 }
 
-.court-right:hover  .court-player1,
-.court-right:hover  .court-player2,
-.court-right:hover  .court-player3 {
-  transform: rotateY(180deg);
+.rotated {
+  transform: rotate(180deg);
 }
 
-/* ホバー時の裏面 */
-.court:hover .back,
-.court:hover .back2,
-.court:hover .back3 {
-  transform: rotateY(0);
-}
-
-.court-right:hover .back,
-.court-right:hover .back2,
-.court-right:hover .back3 {
-  transform: rotateY(0);
-}
 
 .dragged-place {
   text-align: center;
