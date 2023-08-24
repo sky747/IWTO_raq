@@ -1,3 +1,33 @@
+        // 下矢印ボタンをクリックした際の処理を定義する関数
+        const slideButton = document.querySelector('.slide_button');
+        const courtPlayers2 = document.querySelectorAll('.court-player2');
+        const courtPlayers3 = document.querySelectorAll('.court-player3');
+
+        let isFlipped = false;
+
+        slideButton.addEventListener('click', () => {
+          isFlipped = !isFlipped;
+
+          if (isFlipped) {
+            slideButton.style.transform = 'rotate(-45deg) scaleY(-1)'; // 上下反転
+          } else {
+            slideButton.style.transform = 'rotate(45deg) scaleY(1)'; // 元に戻す
+          }
+          toggleVisibility(courtPlayers2);
+          toggleVisibility(courtPlayers3);
+        });
+
+        toggleVisibility = (elements) => {
+          elements.forEach(element => {
+            if (element.style.display === 'none' || element.style.display === '') {
+              element.style.display = 'block';
+            } else {
+              element.style.display = 'none';
+            }
+          });
+        }
+        
+        // チェックボックスをクリックした際の処理を定義する関数
         const rSidebarCheckbox = document.getElementById('r_sidebar');
         const mainContent = document.querySelector('main');
 
@@ -10,7 +40,7 @@
         });
 
         // court-player要素をクリックした際の処理を定義する関数
-        function rotateElement(event) {
+        rotateElement = (event) => {
           const element = event.currentTarget;
 
           // クリックされた要素の親要素を取得
@@ -27,7 +57,7 @@
         }
 
         // back要素をクリックした際の処理を定義する関数
-        function rotateBackElement(event) {
+        rotateBackElement = (event) => {
           const element = event.currentTarget;
 
           // クリックされた要素の親要素を取得

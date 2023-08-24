@@ -15,9 +15,9 @@
                 <img src="raquty.png" width="160" height="64">
             </a>
         </div>
+        <a href="#" class="slide_button"></a>
         <input id="r_sidebar" class="r_sidebar_button" type="checkbox">
         <label class="r_sidebar_label" for="r_sidebar"></label>
-
         <div class="r_sidebar_menu">
             ここにサイドバーの内容を書く
         </div>
@@ -45,18 +45,11 @@
               <button class="back-button">試合消去</button>
             </div>
 
-            <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+            <div class="court-player court-plus" data-player-number="2">
+              <span class="dli-plus"></span>
             </div>
-            <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+            <div class="back court-plus" data-player-number="2">
+              <span class="dli-plus"></span>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -502,8 +495,6 @@
       </div>
     </div>
     </main>
-
-    <script src="oop.js"></script>
-
+  <script src="oop.js"></script>
 </body>
 </html>
