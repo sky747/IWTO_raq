@@ -50,6 +50,8 @@ body {
   opacity: 0.6;
 }
 
+/* ここからサイドバー */
+
 .r_sidebar_button {
   display:none;
 }
@@ -126,6 +128,9 @@ main {
   }
 }
 
+/* ここまでサイドバー */
+
+/* ここからメイン部分 */
 #main__contents {
   background-color: #f5f0f0;
   border: 1px solid lightgray;
@@ -147,6 +152,16 @@ main {
   flex-wrap: wrap;
   margin: 0;
   position: relative;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -309,6 +324,7 @@ ul {
   padding: 0.5rem 0;
 }
 
+/* 試合追加部分 */
 .court .court-plus {
   background: lightgray;
   width: 100%;
@@ -350,3 +366,200 @@ ul {
 .dli-plus::before:hover {
   opacity: 0.6;
 }
+
+/* ここまで試合追加部分 */
+
+/* モーダル部分 */
+#mask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 97;
+}
+
+#main__add {
+  background: #f5f0f0;
+  width: 82%;
+  height: 82%;
+  margin-top: 2rem;
+  padding: 2.6rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+#mask.hidden,
+#main__add.hidden {
+  display: none;
+}
+
+#close {
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  font-size: 2.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.main__player {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 1.5rem;
+}
+
+.main__school {
+  margin-bottom: 2rem;
+}
+
+.add__name {
+  font-size: 1.5rem;
+}
+
+.main__center {
+  display: block;
+}
+
+.main__court__select {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.main__court__select::after {
+  position: absolute;
+  right: 1rem;
+  width: 0.6rem;
+  height: 0.46rem;
+  background-color: #535353;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+  content: '';
+  pointer-events: none;
+}
+
+.main__court__select select {
+    appearance: none;
+    min-width: 5rem;
+    padding: .4rem calc(.8rem + 2rem) .4rem .8rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.vs {
+  font-size: 1.5rem;
+}
+
+.main__round {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 6.5rem 0 5.5rem;
+}
+
+.main__round::after {
+    position: absolute;
+    right: 1rem;
+    width: 0.6rem;
+    height: 0.46rem;
+    background-color: #535353;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+
+.main__round select {
+    appearance: none;
+    min-width: 5rem;
+    padding: .4rem calc(.8rem + 2rem) .4rem .8rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.main__select {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 3.5rem 0 2.5rem;
+}
+
+.main__select::after {
+    position: absolute;
+    right: 1rem;
+    width: 0.6rem;
+    height: 0.46rem;
+    background-color: #535353;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: '';
+    pointer-events: none;
+}
+
+.main__select select {
+    appearance: none;
+    min-width: 5rem;
+    padding: .4rem calc(.8rem + 2rem) .4rem .8rem;
+    border: 1px solid #cccccc;
+    border-radius: 0.2rem;
+    background-color: #fff;
+    color: #333333;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.main__button {
+  margin: 3rem 0 0;
+}
+
+.main__button a {
+  background: white;
+  border-radius: 3.3rem;
+  border: 0.06rem solid #313131;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 17rem;
+  padding: 0.6rem 1.6rem;
+  color: #313131;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.main__button a:hover {
+    background: #313131;
+    color: #FFF;
+}
+
+.main__button a:after {
+    content: '';
+    width: 0.3rem;
+    height: 0.3rem;
+    border-top: 0.2rem solid #313131;
+    border-right: 0.2rem solid #313131;
+    transform: rotate(45deg) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: 1.3rem;
+    border-radius: 0.06rem;
+    transition: 0.3s ease-in-out;
+}
+
+.main__button a:hover:after {
+    border-color: #FFF;
+}
+
+/* ここまでモーダル */

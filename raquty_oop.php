@@ -493,6 +493,86 @@
           </li>
         </ul>
       </div>
+
+      <!-- ここから試合追加モーダル -->
+      <div id="mask" class="hidden"></div>
+      <div id="main__add" class="hidden">
+        <span id="close">&times;</span>
+        <div class="main__title">
+          <h1>試合追加</h1>
+        </div>
+        <div class="main__player">
+          <div class="main__player1">
+            <h2>選手1</h2>
+            <div class="main__school">
+              <div class="add__name">学校名</div>
+              <label class="main__select">
+                <select name="school__name">
+                  <option>学校名を選択してください</option>
+                </select>
+              </label>
+            </div>
+            <div class="main__name">
+              <div class="add__name">選手名</div>
+              <label class="main__select">
+                <select name="player__name">
+                  <option>選手名を選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="main__center">
+            <div class="main__court__select">
+              <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
+            </div>
+            <label class="main__round">
+              <select>
+                <option>1回戦</option>
+                <option>2回戦</option>
+                <option>3回戦</option>
+                <option>準々決勝</option>
+                <option>準決勝</option>
+                <option>決勝</option>
+              </select>
+            </label>
+            <div class="vs">VS</div>
+          </div>
+          <div class="main__player2">
+            <h2>選手2</h2>
+            <div class="main__school">
+              <div class="add__name">学校名</div>
+              <label class="main__select">
+                <select name="school__name">
+                  <option>学校名を選択してください</option>
+                </select>
+              </label>
+            </div>
+            <div class="main__name">
+              <div class="add__name">選手名</div>
+              <label class="main__select">
+                <select name="player__name">
+                  <option>選手名を選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="main__button">
+          <a href="#">試合を追加</a>
+        </div>
+      </div>
+    <!-- ここまで試合追加モーダル -->
     </div>
     </main>
   <script src="oop.js"></script>

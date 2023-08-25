@@ -30,12 +30,17 @@
         // チェックボックスをクリックした際の処理を定義する関数
         const rSidebarCheckbox = document.getElementById('r_sidebar');
         const mainContent = document.querySelector('main');
+        const mainAdd = document.getElementById('main__add');
 
         rSidebarCheckbox.addEventListener('change', () => {
             if (rSidebarCheckbox.checked) {
-                mainContent.style.width = `calc(100% - 300px)`;
+                mainContent.style.width = `calc(100% - 20rem)`;
+                mainAdd.style.width = `calc(82% - 20rem)`;
+                mainAdd.style.translate = `-10rem`;
             } else {
                 mainContent.style.width = `100%`;
+                mainAdd.style.width = `82%`;
+                mainAdd.style.translate = `0`;
             }
         });
 
@@ -83,4 +88,27 @@
         const backElements = document.querySelectorAll('.back, .court-right .back');
         backElements.forEach((backElement) => {
           backElement.addEventListener('click', rotateBackElement);
+        });
+
+        // モーダル部分の処理
+        const courtPlus = document.querySelectorAll('.court-plus');
+        const close = document.getElementById('close');
+        const mask = document.getElementById('mask');
+        
+
+        courtPlus.forEach((courtPlus) => {
+          courtPlus.addEventListener('click', () => {
+            mainAdd.classList.remove('hidden');
+            mask.classList.remove('hidden');
+          });
+        });
+
+        close.addEventListener('click', () => {
+          mainAdd.classList.add('hidden');
+          mask.classList.add('hidden');
+        });
+
+        mask.addEventListener('click', () => {
+          mainAdd.classList.add('hidden');
+          mask.classList.add('hidden');
         });
