@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-plus" data-player-number="2">
@@ -62,8 +62,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -81,8 +81,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -95,8 +95,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -109,8 +109,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -128,8 +128,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -142,8 +142,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -156,8 +156,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -175,8 +175,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -189,8 +189,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -203,8 +203,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -222,8 +222,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -236,8 +236,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -250,8 +250,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
         </ul>
@@ -271,8 +271,8 @@
               </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -285,8 +285,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -299,8 +299,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -318,8 +318,8 @@
                 </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -332,8 +332,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -346,8 +346,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -365,8 +365,8 @@
               </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -379,8 +379,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -393,8 +393,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -412,8 +412,8 @@
               </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -426,8 +426,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -440,8 +440,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
 
@@ -459,8 +459,8 @@
               </div>
             </div>
             <div class="back back1" data-player-number="1">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
@@ -473,8 +473,8 @@
                 </div>
             </div>
             <div class="back back2" data-player-number="2">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
@@ -487,8 +487,8 @@
                 </div>
             </div>
             <div class="back back3" data-player-number="3">
-              <button class="back-button">結果入力</button>
-              <button class="back-button">試合消去</button>
+              <button class="result-button">結果入力</button>
+              <button class="remove-button">試合消去</button>
             </div>
           </li>
         </ul>
@@ -546,7 +546,7 @@
                 <option>決勝</option>
               </select>
             </label>
-            <div class="vs">VS</div>
+            <div id="vs">VS</div>
           </div>
           <div class="main__player2">
             <h2>選手2</h2>
@@ -573,6 +573,112 @@
         </div>
       </div>
     <!-- ここまで試合追加モーダル -->
+
+    <!-- ここから結果入力モーダル -->
+    <div id="mask2" class="hidden"></div>
+      <div id="result__add" class="hidden">
+        <span id="close2">&times;</span>
+        <div class="main__title">
+          <h1>結果入力</h1>
+        </div>
+        <div class="result__player">
+          <div class="main__player1">
+            <div class="result__name">
+                <label class="main__select">
+                  <select name="player__name">
+                    <option>選手名を選択してください</option>
+                  </select>
+                </label>
+            </div>
+            <div class="result__school">
+              <label class="main__select">
+                <select name="school__name">
+                  <option>スコアを選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="main__center">
+            <div id="vs2">---</div>
+          </div>
+          <div class="main__player2">
+          <div class="result__name">
+            <label class="main__select">
+              <select name="player__name">
+                <option>選手名を選択してください</option>
+              </select>
+            </label>
+          </div>
+            <div class="result__school">
+              <label class="main__select">
+                <select name="school__name">
+                  <option>スコアを選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="result__button">
+          <a href="#">入力完了</a>
+        </div>
+      </div>
+    <!-- ここまで結果入力モーダル -->
+
+    <!-- ここから試合消去モーダル -->
+    <div id="mask3" class="hidden"></div>
+      <div id="main__remove" class="hidden">
+        <span id="close3">&times;</span>
+        <div class="main__title">
+          <h1>消去前確認</h1>
+        </div>
+        <div class="remove__player">
+          <div class="main__player1">
+            <h2>選手1</h2>
+            <div class="main__school">
+              <div class="add__name">学校名</div>
+              <label class="main__select">
+                <select name="school__name">
+                  <option>学校名を選択してください</option>
+                </select>
+              </label>
+            </div>
+            <div class="main__name">
+              <div class="add__name">選手名</div>
+              <label class="main__select">
+                <select name="player__name">
+                  <option>選手名を選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <div class="main__center">
+            <div id="vs3">VS</div>
+          </div>
+          <div class="main__player2">
+            <h2>選手2</h2>
+            <div class="main__school">
+              <div class="add__name">学校名</div>
+              <label class="main__select">
+                <select name="school__name">
+                  <option>学校名を選択してください</option>
+                </select>
+              </label>
+            </div>
+            <div class="main__name">
+              <div class="add__name">選手名</div>
+              <label class="main__select">
+                <select name="player__name">
+                  <option>選手名を選択してください</option>
+                </select>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="main__button">
+          <a href="#">試合を消去</a>
+        </div>
+      </div>
+    <!-- ここまで試合消去モーダル -->
     </div>
     </main>
   <script src="oop.js"></script>

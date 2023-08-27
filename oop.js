@@ -31,16 +31,26 @@
         const rSidebarCheckbox = document.getElementById('r_sidebar');
         const mainContent = document.querySelector('main');
         const mainAdd = document.getElementById('main__add');
+        const resultAdd = document.getElementById('result__add');
+        const mainRemove = document.getElementById('main__remove');
 
         rSidebarCheckbox.addEventListener('change', () => {
             if (rSidebarCheckbox.checked) {
                 mainContent.style.width = `calc(100% - 20rem)`;
                 mainAdd.style.width = `calc(82% - 20rem)`;
                 mainAdd.style.translate = `-10rem`;
+                resultAdd.style.width = `calc(82% - 20rem)`;
+                resultAdd.style.translate = `-10rem`;
+                mainRemove.style.width = `calc(82% - 20rem)`;
+                mainRemove.style.translate = `-10rem`;
             } else {
                 mainContent.style.width = `100%`;
                 mainAdd.style.width = `82%`;
                 mainAdd.style.translate = `0`;
+                resultAdd.style.width = `82%`;
+                resultAdd.style.translate = `0`;
+                mainRemove.style.width = `82%`;
+                mainRemove.style.translate = `0`;
             }
         });
 
@@ -90,12 +100,11 @@
           backElement.addEventListener('click', rotateBackElement);
         });
 
-        // モーダル部分の処理
+        // 試合追加モーダル部分の処理
         const courtPlus = document.querySelectorAll('.court-plus');
         const close = document.getElementById('close');
         const mask = document.getElementById('mask');
         
-
         courtPlus.forEach((courtPlus) => {
           courtPlus.addEventListener('click', () => {
             mainAdd.classList.remove('hidden');
@@ -111,4 +120,48 @@
         mask.addEventListener('click', () => {
           mainAdd.classList.add('hidden');
           mask.classList.add('hidden');
+        });
+
+        // 結果入力モーダル部分の処理
+        const resultButton = document.querySelectorAll('.result-button');
+        const close2 = document.getElementById('close2');
+        const mask2 = document.getElementById('mask2');
+        
+        resultButton.forEach((resultBtn) => {
+          resultBtn.addEventListener('click', () => {
+            resultAdd.classList.remove('hidden');
+            mask2.classList.remove('hidden');
+          });
+        });
+
+        close2.addEventListener('click', () => {
+          resultAdd.classList.add('hidden');
+          mask2.classList.add('hidden');
+        });
+
+        mask2.addEventListener('click', () => {
+          resultAdd.classList.add('hidden');
+          mask2.classList.add('hidden');
+        });
+
+        // 試合消去モーダル部分の処理
+        const removeButton = document.querySelectorAll('.remove-button');
+        const close3 = document.getElementById('close3');
+        const mask3 = document.getElementById('mask3');
+        
+        removeButton.forEach((removeBtn) => {
+          removeBtn.addEventListener('click', () => {
+            mainRemove.classList.remove('hidden');
+            mask3.classList.remove('hidden');
+          });
+        });
+
+        close3.addEventListener('click', () => {
+          mainRemove.classList.add('hidden');
+          mask3.classList.add('hidden');
+        });
+
+        mask3.addEventListener('click', () => {
+          mainRemove.classList.add('hidden');
+          mask3.classList.add('hidden');
         });
