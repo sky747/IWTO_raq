@@ -32,7 +32,7 @@
               <h3>1</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-              <div class="court-round"><p>準々決勝</p></div>
+              <div class="court-round"><p>準決勝</p></div>
               <div>
                 <div class="dragged-place">選手を追加</div>
               </div>
