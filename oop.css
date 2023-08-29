@@ -335,7 +335,8 @@ ul {
   padding: 0.5rem 0;
 }
 
-.back-button:hover {
+.result-button:hover,
+.remove-button:hover {
   opacity: 0.6;
 }
 
