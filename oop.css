@@ -295,22 +295,28 @@ ul {
   border-bottom: 1px solid black;
 }
 
-.court .back,
+.court .back1 {
+  padding-top: 0.5rem;
+}
+
 .court .back2 {
-  padding-bottom: 0.5rem;
+  padding-top: 1.6rem;
 }
 
 .court .back3 {
-  padding-bottom: 1.73rem;
+  padding-top: 1.45rem;
 }
 
-.court-right .back,
+.court-right .back {
+  padding-top: 0.5rem;
+}
+
 .court-right .back2 {
-  padding-bottom: 0.5rem;
+  padding-top: 1.6rem;
 }
 
 .court-right .back3 {
-  padding-bottom: 1.73rem;
+  padding-top: 1.45rem;
 }
 
 .back1 .result-button,
