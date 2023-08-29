@@ -165,7 +165,7 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 p {
@@ -179,6 +179,23 @@ li {
 ul {
   padding-left: 0;
   transform-style: preserve-3d;
+}
+
+.court-round {
+  width: 5rem;
+  margin: 0 auto 0.2rem;
+  font-size: 1rem;
+  display: flex;
+  grid-gap: 0 .7rem;
+  border-radius: 5px;
+  background-color: #ffebee;
+  color: #333333;
+}
+
+.court-round p {
+  margin: 0;
+  padding: 0 0.3rem 0;
+  border-left: 3px solid #f06060;
 }
 
 .court {
@@ -238,9 +255,9 @@ ul {
 .court .back2 {
   position: absolute;
   width: 100%;
-  height: 10.4rem;
+  height: 10.9rem;
   top: 7rem;
-  margin-top: 4.6rem;
+  margin-top: 4.1rem;
   padding-top: 1.4rem;
   border-bottom: 1px solid black;
 }
@@ -249,9 +266,9 @@ ul {
 .court-right .back2 {
   position: absolute;
   width: 100%;
-  height: 10.4rem;
+  height: 10.9rem;
   top: 7rem;
-  margin-top: 4.6rem;
+  margin-top: 4.1rem;
   padding-top: 1.4rem;
   border-bottom: 1px solid black;
 }
@@ -263,7 +280,7 @@ ul {
   height: 10.2rem;
   top: 17.4rem;
   margin-top: 4.4rem;
-  padding-top: 1.4rem;
+  padding-top: 1rem;
   border-bottom: 1px solid black;
 }
 
@@ -274,7 +291,7 @@ ul {
   height: 10.2rem;
   top: 17.4rem;
   margin-top: 4.4rem;
-  padding-top: 1.4rem;
+  padding-top: 1rem;
   border-bottom: 1px solid black;
 }
 
@@ -318,22 +335,23 @@ ul {
 
 .dragged-place {
   text-align: center;
+  align-items: center;
   border: 2px dotted darkgoldenrod;
   border-radius: 0.5rem;
   width: 14.5rem;
-  height: 2.6rem;
+  height: 2.2rem;
   font-size: 1.1rem;
   margin: 0 auto;
-  padding: 0.5rem 0;
+  padding: 0.2rem 0 0.5rem;
 }
 
 /* 試合追加部分 */
 .court .court-plus {
   background: lightgray;
   width: 100%;
-  height: 10.4rem;
+  height: 10.9rem;
   top: 7rem;
-  margin-top: 4.6rem;
+  margin-top: 4.1rem;
   padding-top: 1.4rem;
   border-bottom: 1px solid black;
 }

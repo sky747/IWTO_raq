@@ -32,13 +32,14 @@
               <h3>1</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -53,13 +54,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -72,13 +74,14 @@
               <h3>2</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -86,13 +89,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -100,13 +104,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -119,13 +124,14 @@
               <h3>3</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -133,13 +139,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
                 <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -147,13 +154,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -165,14 +173,15 @@
             <div class="court-title">
               <h3>4</h3>
             </div>
-            <div class="court-player court-player1" data-player-number="1">    
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+            <div class="court-player court-player1" data-player-number="1"> 
+              <div class="court-round"><p>準々決勝</p></div>   
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -180,13 +189,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -194,13 +204,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -213,13 +224,14 @@
               <h3>5</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-                <div>
-                  <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                  <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -227,13 +239,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -241,13 +254,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+               </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -262,6 +276,7 @@
               <h3>6</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
+              <div class="court-round"><p>準々決勝</p></div>
               <div>
                 <div class="dragged-place">選手を追加</div>
               </div>
@@ -276,13 +291,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -290,13 +306,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -309,13 +326,14 @@
               <h3>7</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back1" data-player-number="1">
               <button class="result-button">結果入力</button>
@@ -323,13 +341,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -337,13 +356,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -356,12 +376,13 @@
               <h3>8</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
+              <div class="court-round"><p>準々決勝</p></div>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
               <p>VS</p>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
             </div>
             <div class="back back1" data-player-number="1">
@@ -370,13 +391,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -384,13 +406,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -403,12 +426,13 @@
               <h3>9</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
+              <div class="court-round"><p>準々決勝</p></div>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
               <p>VS</p>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
             </div>
             <div class="back back1" data-player-number="1">
@@ -417,13 +441,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -431,13 +456,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
@@ -450,12 +476,13 @@
               <h3>10</h3>
             </div>
             <div class="court-player court-player1" data-player-number="1">
+              <div class="court-round"><p>準々決勝</p></div>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
               <p>VS</p>
               <div>
-                  <div class="dragged-place">選手を追加</div>
+                <div class="dragged-place">選手を追加</div>
               </div>
             </div>
             <div class="back back1" data-player-number="1">
@@ -464,13 +491,14 @@
             </div>
 
             <div class="court-player court-player2" data-player-number="2">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back2" data-player-number="2">
               <button class="result-button">結果入力</button>
@@ -478,13 +506,14 @@
             </div>
 
             <div class="court-player court-player3" data-player-number="3">
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
-                <p>VS</p>
-                <div>
-                    <div class="dragged-place">選手を追加</div>
-                </div>
+              <div class="court-round"><p>準々決勝</p></div>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
+              <p>VS</p>
+              <div>
+                <div class="dragged-place">選手を追加</div>
+              </div>
             </div>
             <div class="back back3" data-player-number="3">
               <button class="result-button">結果入力</button>
