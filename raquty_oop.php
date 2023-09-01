@@ -6,13 +6,14 @@
     <title>オーダーオブプレイ</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel=”icon” href=“/favicon.ico”>
     <link rel="stylesheet" href="oop.css">
 </head>
 <body>
     <header>
         <div class="header">
             <a href="https://raquty.com/">
-                <img src="raquty.png" width="160" height="64">
+                <img src="raquty.png" width="190" height="70">
             </a>
         </div>
         <a href="#" class="slide_button"></a>
@@ -573,6 +574,14 @@
                 <option>準々決勝</option>
                 <option>準決勝</option>
                 <option>決勝</option>
+              </select>
+            </label>
+            <label class="main__category">
+              <select>
+                <option>男子シングルス</option>
+                <option>女子シングルス</option>
+                <option>男子ダブルス</option>
+                <option>女子ダブルス</option>
               </select>
             </label>
             <div id="vs">VS</div>
